@@ -1,0 +1,107 @@
+
+
+@import url('https://googleapis.com');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* Añadida la familia genérica 'sans-serif' por si la fuente externa tarda en cargar */
+    font-family: 'Open Sans', sans-serif;
+}
+img {
+margin: auto;
+display: block;
+width: 20%;
+height: 20%;
+border-radius: 70%;
+
+}
+
+
+body {
+
+
+
+
+font-size: 25px;
+background-image: url(https://visme.co/blog/wp-content/uploads/2017/07/50-Beautiful-and-Minimalist-Presentation-Backgrounds-03.jpg);
+background-size: cover;
+background-position: center;
+background-attachment: fixed;
+
+margin: auto;
+font-display: auto;
+text-align: center;
+justify-content: center;
+list-style: none;
+padding: 0;
+}
+.contenedor-texto{
+background-color: beige;
+    max-width: 900px;
+    margin: auto;
+    text-align: center;
+    padding: 50px;
+    text-align: justify;
+}
+
+
+
+nav {
+max-width: 900px;
+margin: auto;
+background-color: #333;
+font-size: 20px;
+margin-top: 50px;
+}
+
+.menu-horizontal {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+.menu-horizontal > li > a {
+    display: block;
+    padding: 15px 20px;
+    color: white;
+    text-decoration: none;
+}
+
+.menu-horizontal > li:hover {
+    background-color: red;
+}
+
+/* --- Estilos del menú desplegable (Vertical) --- */
+
+.menu-vertical {
+    position: absolute;
+    display: none;
+    list-style: none;
+    width: 200px;
+    background-color: rgba(0, 0, 0, .5);
+}
+
+/* Muestra el menú vertical al pasar el cursor por el elemento padre */
+.menu-horizontal li:hover .menu-vertical {
+    display: block;
+}
+
+.menu-vertical li:hover {
+    background-color: black;
+}
+
+.menu-vertical li a {
+    display: block;
+    color: white;
+    padding: 15px 15px 15px 20px;
+    text-decoration: none;
+}
+h2 {
+text-align: center;
+
+} 
+h1 {
+    text-align: center;
+}
